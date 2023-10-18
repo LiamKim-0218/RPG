@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+}
+
+.gameEndBG {
+	background-image: url("../img/gameEndBG.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+
+
+.gamePlayContainer {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	margin: 10px 0;
+	color: antiquewhite;
+}
+
+.gameOver-button {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	position: relative;
+}
+
+.gameOver-button:hover {
+	background-color: #0056b3;
+}
